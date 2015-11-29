@@ -1,0 +1,31 @@
+{
+	"title": "Hyperlike",
+	"bounds": [
+		[ 47.379117, 8.497506 ],
+		[ 47.397015, 8.541194 ]
+	],
+	"grid": 3,
+	"input": [
+		{
+		    "id": "foo",
+			"question": "How would you rate Foo at your location?",
+			"min": 0,
+			"max": 15,
+			"step": 0.5,
+			"weight": 1
+		},
+		{
+		    "id": "bar",
+			"question": "How many Bars can you see?",
+			"min": 0,
+			"max": 100,
+			"step": 1,
+			"weight": 2
+		}
+	],
+	"display": {
+		"metric": "max",
+		"quorum": 1,
+		"colors": ["#009933", "#FFFF00", "#FF0000"]
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Wo ist der Sommer in Zürich am schönsten?",
+  "bounds": [
+	[ 47.330937, 8.462729 ],
+	[ 47.413710, 8.572936 ]
+  ],
+  "input": [
+	{
+	  "id": "temp",
+	  "question": "Wie warm ist es?",
+	  "min": 0,
+	  "max": 35,
+	  "step": 1,
+	  "initial": 23
+	},
+	{
+	  "id": "pop",
+	  "question": "Wie viele Leute sind versammelt?",
+	  "min": 0,
+	  "max": 500,
+	  "step": 5,
+	  "initial": 50
+	},
+	{
+	  "id": "vibe",
+	  "question": "Wie gut ist die Stimmung?",
+	  "min": 0,
+	  "max": 10,
+	  "step": 1,
+	  "initial": 5
+	}
+  ],
+  "analysis": {
+	  "grid": 5,
+	  "method":"mean"
+  },
+  "display": {
+	"metric": "mean",
+	"quorum": 1,
+	"colors": ["#009933", "#FFFF00", "#FF0000"]
+  }
+}
