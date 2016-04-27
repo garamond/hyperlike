@@ -1,10 +1,10 @@
 # Hyperlike prototype
 
-Source code of my [BSc thesis](raw/master/thesis.pdf) in computer science at the Zurich University of Applied Sciences (ZHAW)
+Source code of my [BSc thesis](https://github.com/garamond/hyperlike/raw/master/thesis.pdf) in computer science at the Zurich University of Applied Sciences (ZHAW)
 
 **This is a prototype of the system outlined below.** The code is not suitable for production use.
 
-[![Poster](poster.png)](raw/master/poster.pdf)
+[![Poster](poster.png)](https://github.com/garamond/hyperlike/raw/master/poster.pdf)
 
 ## Overview
 
